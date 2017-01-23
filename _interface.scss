@@ -1,0 +1,161 @@
+    /*
+    interface icon font: interface
+    Creation date: 19/07/2016 08:47
+    */
+
+    @font-face {
+  font-family: "interface";
+  src: url("./interface.eot");
+  src: url("./interface.eot?#iefix") format("embedded-opentype"),
+       url("./interface.woff") format("woff"),
+       url("./interface.ttf") format("truetype"),
+       url("./interface.svg#interface") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "interface";
+    src: url("./interface.svg#interface") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "interface";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .interface-airplane:before { content: "\f100"; }
+.interface-attachment:before { content: "\f101"; }
+.interface-broken-heart:before { content: "\f102"; }
+.interface-browser:before { content: "\f103"; }
+.interface-cancel:before { content: "\f104"; }
+.interface-center-alignment:before { content: "\f105"; }
+.interface-clock:before { content: "\f106"; }
+.interface-clock-1:before { content: "\f107"; }
+.interface-cloud-computing:before { content: "\f108"; }
+.interface-compass:before { content: "\f109"; }
+.interface-computer:before { content: "\f10a"; }
+.interface-cursor:before { content: "\f10b"; }
+.interface-document:before { content: "\f10c"; }
+.interface-document-1:before { content: "\f10d"; }
+.interface-document-2:before { content: "\f10e"; }
+.interface-document-3:before { content: "\f10f"; }
+.interface-download:before { content: "\f110"; }
+.interface-earth-globe:before { content: "\f111"; }
+.interface-email:before { content: "\f112"; }
+.interface-film:before { content: "\f113"; }
+.interface-folder:before { content: "\f114"; }
+.interface-gamepad:before { content: "\f115"; }
+.interface-group:before { content: "\f116"; }
+.interface-heart:before { content: "\f117"; }
+.interface-internet:before { content: "\f118"; }
+.interface-layers:before { content: "\f119"; }
+.interface-left-alignment:before { content: "\f11a"; }
+.interface-light-bulb:before { content: "\f11b"; }
+.interface-light-bulb-1:before { content: "\f11c"; }
+.interface-link:before { content: "\f11d"; }
+.interface-list:before { content: "\f11e"; }
+.interface-mail:before { content: "\f11f"; }
+.interface-microphone:before { content: "\f120"; }
+.interface-notification:before { content: "\f121"; }
+.interface-padlock:before { content: "\f122"; }
+.interface-pencil:before { content: "\f123"; }
+.interface-phone-book:before { content: "\f124"; }
+.interface-phone-book-1:before { content: "\f125"; }
+.interface-picture:before { content: "\f126"; }
+.interface-picture-1:before { content: "\f127"; }
+.interface-placeholder:before { content: "\f128"; }
+.interface-push-pin:before { content: "\f129"; }
+.interface-right-alignment:before { content: "\f12a"; }
+.interface-settings:before { content: "\f12b"; }
+.interface-share:before { content: "\f12c"; }
+.interface-shield:before { content: "\f12d"; }
+.interface-shield-1:before { content: "\f12e"; }
+.interface-shield-2:before { content: "\f12f"; }
+.interface-smartphone:before { content: "\f130"; }
+.interface-speech-bubble:before { content: "\f131"; }
+.interface-speech-bubble-1:before { content: "\f132"; }
+.interface-tablet:before { content: "\f133"; }
+.interface-unlock:before { content: "\f134"; }
+.interface-upload:before { content: "\f135"; }
+.interface-user:before { content: "\f136"; }
+.interface-user-1:before { content: "\f137"; }
+.interface-user-2:before { content: "\f138"; }
+.interface-user-3:before { content: "\f139"; }
+.interface-volume:before { content: "\f13a"; }
+.interface-zoom-in:before { content: "\f13b"; }
+.interface-zoom-out:before { content: "\f13c"; }
+    
+    $font-interface-airplane: "\f100";
+    $font-interface-attachment: "\f101";
+    $font-interface-broken-heart: "\f102";
+    $font-interface-browser: "\f103";
+    $font-interface-cancel: "\f104";
+    $font-interface-center-alignment: "\f105";
+    $font-interface-clock: "\f106";
+    $font-interface-clock-1: "\f107";
+    $font-interface-cloud-computing: "\f108";
+    $font-interface-compass: "\f109";
+    $font-interface-computer: "\f10a";
+    $font-interface-cursor: "\f10b";
+    $font-interface-document: "\f10c";
+    $font-interface-document-1: "\f10d";
+    $font-interface-document-2: "\f10e";
+    $font-interface-document-3: "\f10f";
+    $font-interface-download: "\f110";
+    $font-interface-earth-globe: "\f111";
+    $font-interface-email: "\f112";
+    $font-interface-film: "\f113";
+    $font-interface-folder: "\f114";
+    $font-interface-gamepad: "\f115";
+    $font-interface-group: "\f116";
+    $font-interface-heart: "\f117";
+    $font-interface-internet: "\f118";
+    $font-interface-layers: "\f119";
+    $font-interface-left-alignment: "\f11a";
+    $font-interface-light-bulb: "\f11b";
+    $font-interface-light-bulb-1: "\f11c";
+    $font-interface-link: "\f11d";
+    $font-interface-list: "\f11e";
+    $font-interface-mail: "\f11f";
+    $font-interface-microphone: "\f120";
+    $font-interface-notification: "\f121";
+    $font-interface-padlock: "\f122";
+    $font-interface-pencil: "\f123";
+    $font-interface-phone-book: "\f124";
+    $font-interface-phone-book-1: "\f125";
+    $font-interface-picture: "\f126";
+    $font-interface-picture-1: "\f127";
+    $font-interface-placeholder: "\f128";
+    $font-interface-push-pin: "\f129";
+    $font-interface-right-alignment: "\f12a";
+    $font-interface-settings: "\f12b";
+    $font-interface-share: "\f12c";
+    $font-interface-shield: "\f12d";
+    $font-interface-shield-1: "\f12e";
+    $font-interface-shield-2: "\f12f";
+    $font-interface-smartphone: "\f130";
+    $font-interface-speech-bubble: "\f131";
+    $font-interface-speech-bubble-1: "\f132";
+    $font-interface-tablet: "\f133";
+    $font-interface-unlock: "\f134";
+    $font-interface-upload: "\f135";
+    $font-interface-user: "\f136";
+    $font-interface-user-1: "\f137";
+    $font-interface-user-2: "\f138";
+    $font-interface-user-3: "\f139";
+    $font-interface-volume: "\f13a";
+    $font-interface-zoom-in: "\f13b";
+    $font-interface-zoom-out: "\f13c";
